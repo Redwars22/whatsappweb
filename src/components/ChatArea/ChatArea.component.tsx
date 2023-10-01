@@ -1,3 +1,9 @@
+import './style.css';
+
 export function ChatAreaComponent() {
-  return <></>;
+  return (
+    <>
+      <div className="chatarea-header"></div>
+    </>
+  );
 }
