@@ -1,4 +1,5 @@
 import { ConversationsComponent } from '../ConversationsList/Conversations.component';
+import { CryptographyComponent } from '../LeftBar/Cryptography.component';
 import { HeaderButtonComponent } from '../LeftBar/HeaderButton.component';
 import { LeftBarHeaderComponent } from '../LeftBar/LeftBarHeader.component';
 import { SearchBarComponent } from '../LeftBar/SearchBar.component';
@@ -11,6 +12,7 @@ export function LeftBarComponent() {
       <LeftBarHeaderComponent />
       <SearchBarComponent />
       <ConversationsComponent />
+      <CryptographyComponent />
     </div>
   );
 }
