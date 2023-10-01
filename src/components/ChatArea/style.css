@@ -8,6 +8,11 @@
   padding-right: 16px;
 }
 
+.chat-area {
+  display: flex;
+  flex-direction: column;
+}
+
 .status {
   font-size: 12px;
 }
@@ -26,4 +31,8 @@
   background-color: #ffffff00;
   border: none;
   cursor: pointer;
+}
+
+.write-message-area-component {
+  margin-top: auto;
 }

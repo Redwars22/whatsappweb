@@ -6,7 +6,7 @@ import './style.css';
 
 export function ChatAreaComponent() {
   return (
-    <>
+    <div className="chat-area">
       <div className="chatarea-header">
         <ProfilePictureComponent source={conversationsMock[0].picture} />
         <div className="chatarea-username-container">
@@ -19,6 +19,6 @@ export function ChatAreaComponent() {
         </div>
       </div>
       <WriteMessageAreaComponent />
-    </>
+    </div>
   );
 }
