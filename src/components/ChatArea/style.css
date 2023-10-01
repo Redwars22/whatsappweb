@@ -1,5 +1,5 @@
 .chatarea-header {
-  background-color: #f0f2f5;
+  background-color: #a8a8a8;
   display: flex;
   height: 59px;
   width: calc(100vh - 407px);
@@ -10,7 +10,7 @@
 
 .chat-area {
   display: flex;
-  flex-direction: column;
+  width: calc(100vh - 407px);
 }
 
 .status {
