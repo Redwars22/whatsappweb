@@ -15,6 +15,7 @@
 
 .sent-pinned {
   color: #636f77;
+  gap: 5px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -26,4 +27,8 @@
 
 .pinned {
   color: #8696a0;
+}
+
+.middle-container {
+  margin-left: 12px;
 }
