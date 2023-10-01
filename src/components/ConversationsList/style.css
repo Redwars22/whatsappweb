@@ -1,12 +1,12 @@
 .message {
   color: #636f77;
-  border-bottom: 1px solid #eef1f3;
 }
 
 .convo-container {
   display: flex;
   padding: 12px 0px 12px 0px;
   width: 100%;
+  border-bottom: 1px solid #eef1f3;
 }
 
 .convo-container:hover {
