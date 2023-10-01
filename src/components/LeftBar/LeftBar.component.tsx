@@ -10,8 +10,8 @@ export function LeftBarComponent() {
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={''}
-          title={''}
+          icon={'people-fill'}
+          title={'aaaaaaaa'}
         />
       </div>
     </>
