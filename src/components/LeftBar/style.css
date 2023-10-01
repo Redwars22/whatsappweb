@@ -26,7 +26,7 @@
 }
 
 .left-bar {
-  height: calc(100vw - 59px);
+  height: 100vh;
   width: 409px;
   background-color: #fff;
 }
