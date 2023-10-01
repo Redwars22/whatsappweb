@@ -19,4 +19,40 @@ export const conversationsMock: IConversation[] = [
     pinned: true,
     lastSent: '11:10',
   },
+  {
+    picture:
+      'https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png',
+    name: 'Calleb',
+    status: 'sent',
+    message: 'Lorem ipsum dolor sit amet',
+    pinned: true,
+    lastSent: '10:04',
+  },
+  {
+    picture:
+      'https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png',
+    name: 'Evelina',
+    status: 'sent',
+    message: 'Lorem ipsum dolor sit amet',
+    pinned: false,
+    lastSent: '08:58',
+  },
+  {
+    picture:
+      'https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png',
+    name: 'Doryan',
+    status: 'sent',
+    message: 'Lorem ipsum dolor sit amet',
+    pinned: false,
+    lastSent: '07:52',
+  },
+  {
+    picture:
+      'https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png',
+    name: 'Nathaniel',
+    status: 'sent',
+    message: 'Lorem ipsum dolor sit amet',
+    pinned: false,
+    lastSent: '06:46',
+  },
 ];
