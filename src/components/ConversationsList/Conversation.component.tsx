@@ -20,7 +20,7 @@ export function ConversationComponent(props: IConversation) {
   };
 
   return (
-    <>
+    <div className="convo-container">
       <ProfilePictureComponent source={props?.picture} />
       <div>
         <span>{props?.name}</span>
@@ -30,6 +30,6 @@ export function ConversationComponent(props: IConversation) {
         </div>
       </div>
       <div></div>
-    </>
+    </div>
   );
 }

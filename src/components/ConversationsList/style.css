@@ -1,3 +1,13 @@
 .message {
-  color: #8a979e;
+  color: #636f77;
+  border-bottom: 1px solid #eef1f3;
+}
+
+.convo-container {
+  display: flex;
+  padding: 12px 0px 12px 0px;
+}
+
+.convo-container:hover {
+  background-color: #f0f2f5;
 }
