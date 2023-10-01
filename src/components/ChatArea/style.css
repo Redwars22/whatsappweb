@@ -5,6 +5,7 @@
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
+  min-width: calc(100vw - 407px);
 }
 
 .chat-area {
