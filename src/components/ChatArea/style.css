@@ -3,4 +3,19 @@
   display: flex;
   height: 59px;
   width: 100%;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.chatarea-username-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+  gap: 5px;
+  margin-right: auto;
 }
