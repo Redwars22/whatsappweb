@@ -63,7 +63,7 @@
   border: none;
 }
 
-.search-bar-container > i {
+.search-bar-component > i {
   color: #64747d;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
