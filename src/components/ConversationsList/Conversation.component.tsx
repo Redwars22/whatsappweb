@@ -29,7 +29,10 @@ export function ConversationComponent(props: IConversation) {
           <span>{props?.message}</span>
         </div>
       </div>
-      <div></div>
+      <div>
+        <span>{props?.lastSent}</span>
+        <>{props?.pinned && <i className="bi bi-pin-angle-fill"></i>}</>
+      </div>
     </div>
   );
 }

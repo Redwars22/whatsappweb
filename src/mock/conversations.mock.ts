@@ -8,6 +8,6 @@ export const conversationsMock: IConversation[] = [
     status: 'delivered',
     message: 'Lorem ipsum dolor sit amet',
     pinned: true,
-    lastSent: '',
+    lastSent: '12:16',
   },
 ];
