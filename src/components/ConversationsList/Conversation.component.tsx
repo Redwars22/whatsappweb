@@ -7,7 +7,7 @@ export function ConversationComponent(props: IConversation) {
   const getIconFromStatus = (icon: string) => {
     switch (icon) {
       case 'read':
-        return '';
+        return 'check-all';
       case 'delivered':
         return 'check-all';
       case 'sent':
@@ -26,7 +26,7 @@ export function ConversationComponent(props: IConversation) {
         <span>{props?.name}</span>
         <div className="message">
           <i className={`bi bi-${getIconFromStatus(props?.status)}`}></i>
-          <span></span>
+          <span>{props?.message}</span>
         </div>
       </div>
       <div></div>
