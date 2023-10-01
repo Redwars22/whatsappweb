@@ -1,8 +1,7 @@
 .chatarea-header {
-  background-color: #a8a8a8;
+  background-color: #f0f2f5;
   display: flex;
   height: 59px;
-  width: calc(100vh - 407px);
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
