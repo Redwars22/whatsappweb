@@ -5,7 +5,9 @@ export function ConversationComponent(props: IConversation) {
   return (
     <>
       <ProfilePictureComponent source={props?.picture} />
-      <div></div>
+      <div>
+        <span>{props?.name}</span>
+      </div>
       <div></div>
     </>
   );
