@@ -22,7 +22,7 @@ export function ConversationComponent(props: IConversation) {
   return (
     <div className="convo-container">
       <ProfilePictureComponent source={props?.picture} />
-      <div>
+      <div className="middle-container">
         <span>{props?.name}</span>
         <div className="message">
           <i className={`bi bi-${getIconFromStatus(props?.status)}`}></i>
