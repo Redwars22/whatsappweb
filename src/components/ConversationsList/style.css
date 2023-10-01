@@ -4,7 +4,7 @@
 
 .convo-container {
   display: flex;
-  padding: 12px 0px 12px 0px;
+  padding: 12px 12px 12px 12px;
   width: 100%;
   border-bottom: 1px solid #eef1f3;
 }
@@ -25,9 +25,12 @@
   font-size: 12px;
 }
 
+.message {
+  margin-top: 5px;
+}
+
 .message > span {
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 14px;
 }
 
 .pinned {
@@ -36,4 +39,5 @@
 
 .middle-container {
   margin-left: 12px;
+  width: 100%;
 }
