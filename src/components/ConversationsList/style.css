@@ -25,6 +25,11 @@
   font-size: 12px;
 }
 
+.message > span {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
 .pinned {
   color: #8696a0;
 }
