@@ -5,9 +5,9 @@ import './style.css';
 export function WriteMessageAreaComponent() {
   return (
     <div className="write-message-area-component">
-      <ChatAreaButtonComponent icon={''} />
+      <ChatAreaButtonComponent icon={'plus-lg'} />
       <input />
-      <ChatAreaButtonComponent icon={''} />
+      <ChatAreaButtonComponent icon={'mic-fill'} />
     </div>
   );
 }

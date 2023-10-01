@@ -10,6 +10,7 @@
 
 .chat-area {
   display: flex;
+  flex-direction: column;
   width: calc(100vw - 407px);
 }
 
@@ -35,4 +36,5 @@
 
 .write-message-area-component {
   margin-top: auto;
+  background-color: #f0f2f5;
 }
