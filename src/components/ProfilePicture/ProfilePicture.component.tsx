@@ -1,7 +1,7 @@
 import IProfilePicture from '../../types/ProfilePicture';
 
-import * as styles from './ProfilePicture.style.sass';
+import { ProfilePictures } from './ProfilePicture.style.scss';
 
 export function ProfilePictureComponent(props: IProfilePicture) {
-  return <img className={styles.ProfilePictures} src={props.source} />;
+  return <img className={ProfilePictures} src={props.source} />;
 }
