@@ -1,5 +1,6 @@
 import { conversationsMock } from '../../mock/conversations.mock';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
+import { WriteMessageAreaComponent } from '../ChatArea/WriteMessageArea.component';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
 import './style.css';
 
@@ -17,6 +18,7 @@ export function ChatAreaComponent() {
           <ChatAreaButtonComponent icon={'three-dots-vertical'} />
         </div>
       </div>
+      <WriteMessageAreaComponent />
     </>
   );
 }
