@@ -24,3 +24,9 @@
   justify-content: space-between;
   border-right: 1px solid #d8dde1;
 }
+
+.left-bar {
+  height: calc(100vw - 59px);
+  width: 409px;
+  background-color: #fff;
+}
