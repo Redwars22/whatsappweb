@@ -33,14 +33,14 @@ export function LeftBarHeaderComponent() {
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'people-fill'}
+          icon={'chat-left-dots-fill'}
           title={'Nova conversa'}
         />
         <HeaderButtonComponent
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'people-fill'}
+          icon={'three-dots-vertical'}
           title={'Mais opções'}
         />
       </div>
