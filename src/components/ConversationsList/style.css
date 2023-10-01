@@ -15,3 +15,11 @@
 .sent-pinned {
   color: #636f77;
 }
+
+.sent-pinned > span {
+  font-size: 12px;
+}
+
+.pinned {
+  color: #8696a0;
+}
