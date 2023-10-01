@@ -9,7 +9,7 @@
 
 .chat-area {
   display: flex;
-  width: calc(100vh - 407px);
+  width: calc(100vw - 407px);
 }
 
 .status {
