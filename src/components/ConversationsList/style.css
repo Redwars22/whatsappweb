@@ -1,6 +1,7 @@
 .message {
   color: #636f77;
   border-bottom: 1px solid #eef1f3;
+  width: 100%;
 }
 
 .convo-container {
@@ -14,6 +15,8 @@
 
 .sent-pinned {
   color: #636f77;
+  display: flex;
+  flex-direction: column;
 }
 
 .sent-pinned > span {
