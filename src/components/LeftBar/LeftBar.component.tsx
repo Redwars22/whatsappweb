@@ -1,3 +1,9 @@
+import { LeftBarHeaderComponent } from '../LeftBar/LeftBarHeader.component';
+
 export function LeftBarComponent() {
-  return <></>;
+  return (
+    <>
+      <LeftBarHeaderComponent />
+    </>
+  );
 }
