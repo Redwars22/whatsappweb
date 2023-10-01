@@ -1,4 +1,8 @@
 .header-button {
   color: #54686f;
   background-color: rgba(0, 0, 0, 0);
+  width: 40px;
+  height: 40px;
+  font-size: 100%;
+  border: none;
 }
