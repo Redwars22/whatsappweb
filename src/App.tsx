@@ -3,7 +3,7 @@ import { LeftBarComponent } from './components/LeftBar/LeftBar.component';
 
 import './style.css';
 
-export const App: FC<{ name: string }> = ({ name }) => {
+export const App = () => {
   return (
     <div>
       <LeftBarComponent />
