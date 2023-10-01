@@ -10,4 +10,13 @@ export const conversationsMock: IConversation[] = [
     pinned: true,
     lastSent: '12:16',
   },
+  {
+    picture:
+      'https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png',
+    name: 'Gabriel',
+    status: 'sent',
+    message: 'Lorem ipsum dolor sit amet',
+    pinned: true,
+    lastSent: '11:10',
+  },
 ];
