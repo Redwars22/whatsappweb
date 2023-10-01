@@ -39,6 +39,12 @@
 
 .search-bar-component > input {
   width: 100%;
+  background-color: #f0f2f5;
+  border: none;
+}
+
+.search-bar-component > input:active {
+  border: none;
 }
 
 .search-bar-component {
@@ -46,4 +52,13 @@
   width: 100%;
   background-color: #f0f2f5;
   padding: 6.5px 23px 6.5px 23px;
+  border-radius: 10px;
+}
+
+.search-bar-container > button {
+  color: #9ca9b1;
+  font-size: 1.5rem;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
 }
