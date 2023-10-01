@@ -1,7 +1,12 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { IConversation } from '../../types/Conversation';
 
 export function ConversationsComponent() {
-  useEffect(() => {}, []);
+  const [data, setData] = useState<IConversation | []>([]);
+
+  useEffect(() => {
+    setData();
+  }, []);
 
   return <></>;
 }
