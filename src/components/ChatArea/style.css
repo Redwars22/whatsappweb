@@ -5,7 +5,7 @@
   align-items: center;
   padding-left: 16px;
   padding-right: 16px;
-  min-width: calc(100vw - 407px);
+  min-width: calc(100vw - 407px - 32px);
 }
 
 .chat-area {
@@ -37,4 +37,10 @@
 .write-message-area-component {
   margin-top: auto;
   background-color: #f0f2f5;
+}
+
+.write-message-input-container {
+}
+
+.write-message-input {
 }
