@@ -37,10 +37,14 @@
 .write-message-area-component {
   margin-top: auto;
   background-color: #f0f2f5;
+  display: flex;
+  height: 64px;
 }
 
 .write-message-input-container {
+  width: 100%;
 }
 
 .write-message-input {
+  width: 100%;
 }
