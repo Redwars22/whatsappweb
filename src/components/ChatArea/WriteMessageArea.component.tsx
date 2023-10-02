@@ -8,7 +8,11 @@ export function WriteMessageAreaComponent() {
       <ChatAreaButtonComponent icon={'plus-lg'} />
       <div className="write-message-input-container">
         <i className="bi bi-emoji-smile"></i>
-        <input className="write-message-input" type="text" />
+        <input
+          className="write-message-input"
+          type="text"
+          placeholder="Digite uma mensagem"
+        />
       </div>
       <ChatAreaButtonComponent icon={'mic-fill'} />
     </div>
