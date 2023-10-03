@@ -14,3 +14,9 @@
   background-color: #fff;
   margin: 10px auto 10px 56.7px;
 }
+
+.timestamp {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #424241;
+}
