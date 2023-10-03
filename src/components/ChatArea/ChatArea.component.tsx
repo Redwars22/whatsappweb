@@ -1,4 +1,5 @@
-import { TRUE } from 'sass';
+import { useEffect, useState } from 'react';
+import { chatMocks } from '../../mock/chat.mock';
 import { conversationsMock } from '../../mock/conversations.mock';
 import { IChatBubble } from '../../types/chat';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
@@ -8,20 +9,13 @@ import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.compon
 import './style.css';
 
 export function ChatAreaComponent() {
-  const mock: IChatBubble[] = [
-    {
-      isSender: false,
-      message: 'Exemplo, de teste teste e teste...',
-      timeStamp: '13:35',
-      status: 'read',
-    },
-    {
-      isSender: true,
-      message: 'Exemplo, de teste teste e teste...',
-      timeStamp: '13:40',
-      status: 'read',
-    }
-  ];
+  const [messages, setMessages] = useState<IChatBubble[] | []>();
+
+  useEffect(() => {
+    const data: IChatBubble[] = chatMocks.Emanoel;
+
+    setMessages(data);
+  }, []);
 
   return (
     <div className="chat-area">
@@ -37,7 +31,7 @@ export function ChatAreaComponent() {
         </div>
       </div>
       <div>
-        {mock.map((message) => (
+        {messages?.map((message) => (
           <ChatBubbleComponent
             isSender={message?.isSender}
             message={message?.message}
