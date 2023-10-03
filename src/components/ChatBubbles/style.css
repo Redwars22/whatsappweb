@@ -1,16 +1,19 @@
 .chat-bubble {
   padding: 8px 7px;
   max-width: 452px;
+  width: fit-content;
   border-radius: 8px;
 }
 
 .green {
   background-color: #d7f5d3;
-  margin: 10px 56.7px 10px auto;
 }
 
 .white {
   background-color: #fff;
-  margin-left: 56.7px;
-  margin: 10px;
+}
+
+.green,
+.white {
+  margin: 10px 56.7px 10px auto;
 }
