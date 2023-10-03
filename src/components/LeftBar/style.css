@@ -67,3 +67,15 @@
   color: #64747d;
   font-size: 0.75rem;
 }
+
+.cryptography-notice {
+  font-size: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.cryptography-notice > a {
+  color: rgb(29, 105, 218);
+}
