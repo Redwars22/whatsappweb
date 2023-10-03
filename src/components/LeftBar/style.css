@@ -76,6 +76,7 @@
   margin-top: 10px;
 }
 
-.cryptography-notice > a {
+.cryptography-notice > span > a {
   color: rgb(29, 105, 218);
+  text-decoration: none;
 }
