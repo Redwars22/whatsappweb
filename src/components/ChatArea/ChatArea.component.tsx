@@ -1,10 +1,21 @@
 import { conversationsMock } from '../../mock/conversations.mock';
+import { IChatBubble } from '../../types/chat';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
 import { WriteMessageAreaComponent } from '../ChatArea/WriteMessageArea.component';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
 import './style.css';
 
 export function ChatAreaComponent() {
+
+  const mock: IChatBubble[] = [
+    {
+      isSender: false,
+      message: 'Exemplo, de teste teste e teste...',
+      timeStamp: '13:35',
+      status: 'read'
+    }
+  ];
+
   return (
     <div className="chat-area">
       <div className="chatarea-header">
@@ -17,6 +28,9 @@ export function ChatAreaComponent() {
           <ChatAreaButtonComponent icon={'search'} />
           <ChatAreaButtonComponent icon={'three-dots-vertical'} />
         </div>
+      </div>
+      <div>
+        {}
       </div>
       <WriteMessageAreaComponent />
     </div>
