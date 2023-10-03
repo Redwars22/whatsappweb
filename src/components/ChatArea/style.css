@@ -66,3 +66,8 @@
   margin-left: 8px;
   font-size: 1rem;
 }
+
+.messages-area {
+  max-height: calc(100vh - 59px - 64px);
+  overflow-y: auto;
+}

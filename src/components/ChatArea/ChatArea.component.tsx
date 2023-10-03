@@ -30,7 +30,7 @@ export function ChatAreaComponent() {
           <ChatAreaButtonComponent icon={'three-dots-vertical'} />
         </div>
       </div>
-      <div>
+      <div className="messages-area">
         {messages?.map((message) => (
           <ChatBubbleComponent
             isSender={message?.isSender}
