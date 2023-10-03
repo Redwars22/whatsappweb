@@ -1,3 +1,4 @@
+import { TRUE } from 'sass';
 import { conversationsMock } from '../../mock/conversations.mock';
 import { IChatBubble } from '../../types/chat';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
@@ -14,6 +15,12 @@ export function ChatAreaComponent() {
       timeStamp: '13:35',
       status: 'read',
     },
+    {
+      isSender: true,
+      message: 'Exemplo, de teste teste e teste...',
+      timeStamp: '13:40',
+      status: 'read',
+    }
   ];
 
   return (
