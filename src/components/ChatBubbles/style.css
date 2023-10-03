@@ -7,13 +7,10 @@
 
 .green {
   background-color: #d7f5d3;
+  margin: 10px 56.7 10px auto;
 }
 
 .white {
   background-color: #fff;
-}
-
-.green,
-.white {
   margin: 10px auto 10px 56.7px;
 }
