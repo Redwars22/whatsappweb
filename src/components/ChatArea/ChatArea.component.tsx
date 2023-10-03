@@ -2,18 +2,18 @@ import { conversationsMock } from '../../mock/conversations.mock';
 import { IChatBubble } from '../../types/chat';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
 import { WriteMessageAreaComponent } from '../ChatArea/WriteMessageArea.component';
+import { ChatBubbleComponent } from '../ChatBubbles/ChatBubble.component';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
 import './style.css';
 
 export function ChatAreaComponent() {
-
   const mock: IChatBubble[] = [
     {
       isSender: false,
       message: 'Exemplo, de teste teste e teste...',
       timeStamp: '13:35',
-      status: 'read'
-    }
+      status: 'read',
+    },
   ];
 
   return (
@@ -30,7 +30,14 @@ export function ChatAreaComponent() {
         </div>
       </div>
       <div>
-        {}
+        {mock.map((message) => (
+          <ChatBubbleComponent
+            isSender={message?.isSender}
+            message={message?.message}
+            timeStamp={message?.timeStamp}
+            status={message?.status}
+          />
+        ))}
       </div>
       <WriteMessageAreaComponent />
     </div>
