@@ -102,7 +102,13 @@ export function SplashComponent() {
         ></path>
       </svg>
       <h1></h1>
-      <span></span>
+      <span>
+        Envie e receba mensagens sem precisar manter seu celular conectado à
+        internet.
+        <br />
+        Use o WhatsApp em até quatro aparelhos conectados e um celular ao mesmo
+        tempo.
+      </span>
     </div>
   );
 }
