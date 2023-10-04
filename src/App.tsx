@@ -1,6 +1,7 @@
 import { FC, useState } from 'react';
 import { ChatAreaComponent } from './components/ChatArea/ChatArea.component';
 import { LeftBarComponent } from './components/LeftBar/LeftBar.component';
+import { SplashComponent } from './components/Splash/Splash.component';
 
 import './style.css';
 
@@ -9,7 +10,7 @@ export const App = () => {
 
   return (
     <div className="whatsapp">
-      {showSplash && <></>}
+      {showSplash && <SplashComponent />}
       {!showSplash && (
         <>
           <LeftBarComponent />
