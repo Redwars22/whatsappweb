@@ -119,7 +119,7 @@ export const chatMocks = {
       isSender: false,
       message: '...',
       timeStamp: '15:05',
-      status: 'read',
+      status: 'delivered',
     },
   ] as IChatBubble[],
 };
