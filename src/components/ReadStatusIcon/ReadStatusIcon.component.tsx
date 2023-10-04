@@ -18,5 +18,13 @@ export function ReadStatusIcon(props: { status: TMessageStatus }) {
     }
   };
 
-  return <i className={`bi bi-${getIconFromStatus(props?.status)}`}></i>;
+  return (
+    <i
+      className={`material-icons status-icon ${
+        props?.status == 'read' ? 'blue-icon' : ''
+      }`}
+    >
+      {getIconFromStatus(props?.status)}
+    </i>
+  );
 }

@@ -3,6 +3,9 @@
   max-width: 452px;
   width: fit-content;
   border-radius: 8px;
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
 }
 
 .green {
@@ -17,6 +20,5 @@
 
 .timestamp {
   font-size: 12px;
-  margin-left: 5px;
   color: #424241;
 }

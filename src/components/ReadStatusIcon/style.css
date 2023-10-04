@@ -1,7 +1,7 @@
-i {
-  font-size: 16px;
+.status-icon {
+  font-size: 22px;
 }
 
-.bi-read {
+.read-icon {
   color: blue;
 }
