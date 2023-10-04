@@ -27,7 +27,7 @@
 }
 
 .chatarea-button {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
   color: #54656f;
   background-color: #ffffff00;
   border: none;

@@ -1,7 +1,7 @@
 export function ChatAreaButtonComponent(props: { icon: string }) {
   return (
     <button className={'chatarea-button'}>
-      <i className={`bi bi-${props.icon}`} />
+      <i className={'material-icons'}>{props?.icon}</i>
     </button>
   );
 }
