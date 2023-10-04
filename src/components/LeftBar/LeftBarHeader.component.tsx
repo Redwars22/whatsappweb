@@ -12,35 +12,35 @@ export function LeftBarHeaderComponent() {
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'people-fill'}
+          icon={'group'}
           title={'Comunidades'}
         />
         <HeaderButtonComponent
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'radar'}
+          icon={'track_changes'}
           title={'Status'}
         />
         <HeaderButtonComponent
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'chat-quote-fill'}
+          icon={'donut_small'}
           title={'Canais'}
         />
         <HeaderButtonComponent
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'chat-left-dots-fill'}
+          icon={'textsms'}
           title={'Nova conversa'}
         />
         <HeaderButtonComponent
           action={function (): void {
             throw new Error('Function not implemented.');
           }}
-          icon={'three-dots-vertical'}
+          icon={'more_vert'}
           title={'Mais opções'}
         />
       </div>
