@@ -27,7 +27,7 @@ export function ChatAreaComponent() {
         </div>
         <div>
           <ChatAreaButtonComponent icon={'search'} />
-          <ChatAreaButtonComponent icon={'three-dots-vertical'} />
+          <ChatAreaButtonComponent icon={'more_vert'} />
         </div>
       </div>
       <div className="messages-area">
