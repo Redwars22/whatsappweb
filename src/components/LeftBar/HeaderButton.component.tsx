@@ -5,7 +5,7 @@ import './style.css';
 export function HeaderButtonComponent(props: IHeaderButton) {
   return (
     <button className={'header-button'} title={props.title}>
-      <i className={`bi bi-${props.icon}`}></i>
+      <i className={'material-icons'}>{props?.icon}</i>
     </button>
   );
 }
