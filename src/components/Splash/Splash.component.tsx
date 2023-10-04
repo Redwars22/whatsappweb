@@ -101,7 +101,7 @@ export function SplashComponent() {
           stroke="#316474"
         ></path>
       </svg>
-      <h1></h1>
+      <h1>WhatsApp Web - React Clone</h1>
       <span>
         Envie e receba mensagens sem precisar manter seu celular conectado à
         internet.
