@@ -6,9 +6,9 @@ export function ReadStatusIcon(props: { status: TMessageStatus }) {
   const getIconFromStatus = (icon: TMessageStatus) => {
     switch (icon) {
       case 'read':
-        return 'check-all';
+        return 'done_all';
       case 'delivered':
-        return 'check-all';
+        return 'done_all';
       case 'sent':
         return 'check';
       case 'not-mine':
