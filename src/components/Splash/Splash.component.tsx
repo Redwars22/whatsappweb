@@ -1,6 +1,8 @@
+import './styles.css';
+
 export function SplashComponent() {
   return (
-    <div>
+    <div className="splash">
       <svg
         viewBox="0 0 303 172"
         width="360"

@@ -23,7 +23,7 @@ export function ChatAreaComponent() {
         <ProfilePictureComponent source={conversationsMock[0].picture} />
         <div className="chatarea-username-container">
           <span>{conversationsMock[0].name}</span>
-          <span className="status">Online</span>
+          <span className="status">Online </span>
         </div>
         <div>
           <ChatAreaButtonComponent icon={'search'} />
