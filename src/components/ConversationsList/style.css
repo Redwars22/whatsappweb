@@ -1,5 +1,8 @@
 .message {
   color: #636f77;
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .convo-container {
