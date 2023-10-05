@@ -24,3 +24,8 @@
   font-size: 12px;
   color: #424241;
 }
+
+.chat-bubble-container {
+  display: flex;
+  align-items: center;
+}
