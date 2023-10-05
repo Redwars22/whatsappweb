@@ -12,12 +12,18 @@
 
 .green {
   background-color: #d7f5d3;
+}
+
+.right-margin {
   margin: 10px 56.7px 10px auto;
+}
+
+.left-margin {
+  margin: 10px auto 10px 56.7px;
 }
 
 .white {
   background-color: #fff;
-  margin: 10px auto 10px 56.7px;
 }
 
 .timestamp {
