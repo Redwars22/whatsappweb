@@ -1,1 +1,172 @@
-
+{
+    "conversations": [
+        {
+            "picture": "https://media-gru1-2.cdn.whatsapp.net/v/t61.24694-24/355388774_306998611871615_6907549877272558566_n.jpg?ccb=11-4&oh=01_AdQHVpcbrpCXv-3XLTYBDcSqQX7d36-iIJSAWu4eYbUBJg&oe=65269CE3&_nc_sid=000000&_nc_cat=109",
+            "name": "Emanoel",
+            "status": "delivered",
+            "message": "E aí! Como você está?",
+            "pinned": true,
+            "lastSent": "12:16"
+        },
+        {
+            "picture": "https://i.pinimg.com/originals/d6/7f/cb/d67fcb293e7ab5d6fdd92cb9bc639b3b.png",
+            "name": "Gabriel",
+            "status": "sent",
+            "message": "Estou planejando uma viagem para o fim de semana. Alguma sugestão?",
+            "pinned": true,
+            "lastSent": "11:10"
+        },
+        {
+            "picture": "https://render.fineartamerica.com/images/rendered/default/flat/puzzle/images/artworkimages/medium/3/arthur-morgan-red-dead-redemption-2-darko-babovic.jpg?&targetx=0&targety=-56&imagewidth=1000&imageheight=863&modelwidth=1000&modelheight=750&backgroundcolor=532F1F&orientation=0&producttype=puzzle-18-24&brightness=57&v=6",
+            "name": "Calleb",
+            "status": "sent",
+            "message": "Você viu a última atualização do Red Dead Redemption 2?",
+            "pinned": true,
+            "lastSent": "10:04"
+        },
+        {
+            "picture": "https://i.pinimg.com/236x/5f/15/89/5f158939292f19fd926641129852b316.jpg",
+            "name": "Evelina",
+            "status": "sent",
+            "message": "Bom dia! Pronto para mais um dia?",
+            "pinned": false,
+            "lastSent": "08:58"
+        },
+        {
+            "picture": "https://i.redd.it/ljltnf8cemc51.jpg",
+            "name": "Doryan",
+            "status": "sent",
+            "message": "Como estão as coisas do seu lado?",
+            "pinned": false,
+            "lastSent": "07:52"
+        },
+        {
+            "picture": "https://www.nacaofutboleira.com.br/__export/1690688051114/sites/nacionfutbolbr/img/2023/07/29/pedro_remini-enhanced.jpg_1675409549.jpg",
+            "name": "Nathaniel",
+            "status": "sent",
+            "message": "Qual é o seu plano para o dia?",
+            "pinned": false,
+            "lastSent": "06:46"
+        }
+    ],
+    "chats": [
+        {
+            "Emanoel": [
+                {
+                    "isSender": false,
+                    "message": "Oi, tudo bem?",
+                    "timeStamp": "13:35",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Oi, tudo bem sim e você?",
+                    "timeStamp": "13:40",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Estou bem, obrigado. O que você tem feito ultimamente?",
+                    "timeStamp": "13:45",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Eu tenho trabalhado muito ultimamente. E você?",
+                    "timeStamp": "13:50",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Eu também tenho trabalhado muito. Mas eu consegui tirar um tempo para viajar no fim de semana passado.",
+                    "timeStamp": "13:55",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Legal! Para onde você foi?",
+                    "timeStamp": "14:00",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Eu fui para a praia. Foi muito relaxante.",
+                    "timeStamp": "14:05",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Que legal! Eu adoro a praia. Qual praia você foi?",
+                    "timeStamp": "14:10",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Eu fui para a Praia do Rosa. É uma praia muito bonita aqui em Santa Catarina.",
+                    "timeStamp": "14:15",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Eu nunca fui lá. Eu deveria visitar algum dia.",
+                    "timeStamp": "14:20",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Sim, você deveria. É muito bonito lá. E tem muitas coisas para fazer.",
+                    "timeStamp": "14:25",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Eu vou considerar isso. Obrigado pela dica.",
+                    "timeStamp": "14:30",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "De nada. Foi bom conversar com você.",
+                    "timeStamp": "14:35",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Também foi bom conversar com você. Até a próxima!",
+                    "timeStamp": "14:40",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Até mais!",
+                    "timeStamp": "14:45",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "Tchau!",
+                    "timeStamp": "14:50",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "Tchau!",
+                    "timeStamp": "14:55",
+                    "status": "read"
+                },
+                {
+                    "isSender": true,
+                    "message": "...",
+                    "timeStamp": "15:00",
+                    "status": "read"
+                },
+                {
+                    "isSender": false,
+                    "message": "...",
+                    "timeStamp": "15:05",
+                    "status": "delivered"
+                }
+            ]
+        }
+    ]
+}
