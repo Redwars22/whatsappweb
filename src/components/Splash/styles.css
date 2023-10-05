@@ -6,3 +6,7 @@
   flex-direction: column;
   justify-content: space-around;
 }
+
+.splash-text {
+  text-align: center;
+}

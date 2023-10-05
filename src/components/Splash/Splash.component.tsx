@@ -3,6 +3,7 @@ import './styles.css';
 export function SplashComponent() {
   return (
     <div className="splash">
+      <>
       <svg
         viewBox="0 0 303 172"
         width="360"
@@ -103,14 +104,15 @@ export function SplashComponent() {
           stroke="#316474"
         ></path>
       </svg>
-      <h1>WhatsApp Web - React Clone</h1>
-      <span>
+      <h1 className="splash-app-title">WhatsApp Web - React Clone</h1>
+      <span className="splash-text">
         Envie e receba mensagens sem precisar manter seu celular conectado à
         internet.
         <br />
         Use o WhatsApp em até quatro aparelhos conectados e um celular ao mesmo
         tempo.
       </span>
+      </>
     </div>
   );
 }

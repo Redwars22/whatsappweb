@@ -10,7 +10,7 @@ export const App = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setShowSplash(false);
+      //setShowSplash(false);
     }, 5000);
   });
 
