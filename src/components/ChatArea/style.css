@@ -71,3 +71,15 @@
   max-height: calc(100vh - 59px - 64px);
   overflow-y: auto;
 }
+
+.datetime {
+  background-color: #fff;
+  width: fit-content;
+  color: #424241;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #dadada;
+  margin-top: 8px;
+  position: relative;
+}

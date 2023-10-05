@@ -3,6 +3,7 @@ import { chatMocks } from '../../mock/chat.mock';
 import { conversationsMock } from '../../mock/conversations.mock';
 import { IChatBubble } from '../../types/chat';
 import { ChatAreaButtonComponent } from '../ChatArea/ChatAreaButton.component';
+import { DateTimeHeaderComponent } from '../ChatArea/DateTimeHeader.component';
 import { WriteMessageAreaComponent } from '../ChatArea/WriteMessageArea.component';
 import { ChatBubbleComponent } from '../ChatBubbles/ChatBubble.component';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
@@ -31,14 +32,17 @@ export function ChatAreaComponent() {
         </div>
       </div>
       <div className="messages-area">
-        {messages?.map((message) => (
-          <ChatBubbleComponent
-            isSender={message?.isSender}
-            message={message?.message}
-            timeStamp={message?.timeStamp}
-            status={message?.status}
-          />
-        ))}
+        <DateTimeHeaderComponent timeStamp={'HOJE'} />
+        <>
+          {messages?.map((message) => (
+            <ChatBubbleComponent
+              isSender={message?.isSender}
+              message={message?.message}
+              timeStamp={message?.timeStamp}
+              status={message?.status}
+            />
+          ))}
+        </>
       </div>
       <WriteMessageAreaComponent />
     </div>
