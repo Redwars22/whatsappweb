@@ -37,3 +37,14 @@
   display: flex;
   align-items: center;
 }
+
+.chat-bubble-container > i {
+  visibility: hidden;
+}
+
+.chat-bubble-container:hover > i {
+  margin-left: 10px;
+  margin-right: 10px;
+  visibility: visible;
+  color: #c1c0bd;
+}
