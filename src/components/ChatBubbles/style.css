@@ -16,10 +16,12 @@
 
 .right-margin {
   margin: 10px 56.7px 10px auto;
+  justify-content: flex-end;
 }
 
 .left-margin {
   margin: 10px auto 10px 56.7px;
+  justify-content: flex-start;
 }
 
 .white {
