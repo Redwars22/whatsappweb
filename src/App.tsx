@@ -9,7 +9,7 @@ import { IConversation } from './types/Conversation';
 export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
   const [data, setData] = useState<{
-    conversations: any,
+    conversations: [],
     chats: any
   }>();
 
