@@ -3,13 +3,17 @@ import { ChatAreaComponent } from './components/ChatArea/ChatArea.component';
 import { LeftBarComponent } from './components/LeftBar/LeftBar.component';
 import { SplashComponent } from './components/Splash/Splash.component';
 import { fetchData } from './modules/fetch';
+import {IConversation} from './src/types/Conversation.ts';
 
 import './style.css';
 import { IConversation } from './types/Conversation';
 
 export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
-  const [data, setData] = useState();
+  const [data, setData] = useState<{
+    conversations: IConversation[],
+    chats: any
+  }>();
 
   useEffect(() => {
     async function fetchChats() {
