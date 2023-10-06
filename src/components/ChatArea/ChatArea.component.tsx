@@ -10,12 +10,12 @@ import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.compon
 import './style.css';
 
 export function ChatAreaComponent(props: { data: [] }) {
-  const [messages, setMessages] = useState<IChatBubble[] | []>();
+  const [messages, setMessages] = useState<IChatBubble[][] | []>([]);
 
   let i: number = 0;
 
   useEffect(() => {
-    const data: IChatBubble[] = props?.data;
+    const data = props?.data;
 
     console.log(data);
 
@@ -38,7 +38,7 @@ export function ChatAreaComponent(props: { data: [] }) {
       <div className="messages-area">
         <DateTimeHeaderComponent timeStamp={'HOJE'} />
         <>
-          {messages?.map((message) => (
+          {messages[i]?.map((message) => (
             <ChatBubbleComponent
               isSender={message?.isSender}
               message={message?.message}
