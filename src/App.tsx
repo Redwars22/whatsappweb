@@ -10,7 +10,7 @@ export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
   const [data, setData] = useState<{
     conversations: [],
-    chats: any
+    chats: []
   }>();
 
   useEffect(() => {

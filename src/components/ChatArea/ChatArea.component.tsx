@@ -10,7 +10,7 @@ import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.compon
 import './style.css';
 
 export function ChatAreaComponent(props: {
-  data: any,
+  data: [],
   user: string
 }) {
   const [messages, setMessages] = useState<IChatBubble[] | []>();
