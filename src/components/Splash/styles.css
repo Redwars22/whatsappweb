@@ -10,3 +10,10 @@
 .splash-text {
   text-align: center;
 }
+
+.splash > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
