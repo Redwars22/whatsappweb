@@ -9,8 +9,8 @@ import { IConversation } from './types/Conversation';
 export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
   const [data, setData] = useState<{
-    conversations: [],
-    chats: []
+    conversations: [];
+    chats: [];
   }>();
 
   useEffect(() => {
@@ -33,7 +33,7 @@ export const App = () => {
       {!showSplash && (
         <>
           <LeftBarComponent data={data!.conversations} />
-          <ChatAreaComponent data={data!.chats} user={'Emanoel'}/>
+          <ChatAreaComponent data={data!.chats} />
         </>
       )}
     </div>
