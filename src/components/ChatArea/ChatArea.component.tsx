@@ -14,6 +14,14 @@ export function ChatAreaComponent(props: { data: [] }) {
 
   let i: number = 0;
 
+  const els = document.querySelectorAll('.convo');
+
+  els.forEach((el) =>
+    el.addEventListener('click', () => {
+      console.log('Clicou' + el.id);
+    })
+  );
+
   useEffect(() => {
     const data = props?.data;
 
