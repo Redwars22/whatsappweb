@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { ConversationContext } from '../../context/ConversationContext';
 import { IConversation, TMessageStatus } from '../../types/Conversation';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
@@ -9,11 +9,13 @@ import './style.css';
 export function ConversationComponent(props: IConversation) {
   const context = useContext(ConversationContext);
 
-  const el = document
-    .querySelector(`#convo-${props?.id}`)!
-    .addEventListener('click', () => {
-      window.alert(props?.name);
-    });
+  useEffect(() => {
+    const el = document
+      .querySelector(`#convo-${props?.id}`)!
+      .addEventListener('click', () => {
+        window.alert(props?.name);
+      });
+  }, []);
 
   return (
     <div className="convo-container convo" idFor={`convo-${props?.id}`}>
