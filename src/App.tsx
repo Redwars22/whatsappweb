@@ -12,7 +12,7 @@ export const App = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    async function fetchChats(){
+    async function fetchChats() {
       const chatsData = await fetchData();
     }
 
@@ -28,8 +28,8 @@ export const App = () => {
       {showSplash && <SplashComponent />}
       {!showSplash && (
         <>
-          <LeftBarComponent data={data} />
-          <ChatAreaComponent data={data} />
+          <LeftBarComponent data={data.conversations} />
+          <ChatAreaComponent data={data.chats} />
         </>
       )}
     </div>
