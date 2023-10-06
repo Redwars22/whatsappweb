@@ -2,13 +2,22 @@ import { FC, useEffect, useState } from 'react';
 import { ChatAreaComponent } from './components/ChatArea/ChatArea.component';
 import { LeftBarComponent } from './components/LeftBar/LeftBar.component';
 import { SplashComponent } from './components/Splash/Splash.component';
+import { fetchData } from './modules/fetch';
 
 import './style.css';
+import { IConversation } from './types/Conversation';
 
 export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
+  const [data, setData] = useState();
 
   useEffect(() => {
+    async function fetchChats(){
+      const chatsData = await fetchData();
+    }
+
+    fetchData();
+
     setTimeout(() => {
       //setShowSplash(false);
     }, 5000);
@@ -19,8 +28,8 @@ export const App = () => {
       {showSplash && <SplashComponent />}
       {!showSplash && (
         <>
-          <LeftBarComponent />
-          <ChatAreaComponent />
+          <LeftBarComponent data={data} />
+          <ChatAreaComponent data={data} />
         </>
       )}
     </div>
