@@ -2,6 +2,7 @@ import { FC, useEffect, useState } from 'react';
 import { ChatAreaComponent } from './components/ChatArea/ChatArea.component';
 import { LeftBarComponent } from './components/LeftBar/LeftBar.component';
 import { SplashComponent } from './components/Splash/Splash.component';
+import { ConversationContextProvider } from './context/ConversationContext';
 import { fetchData } from './modules/fetch';
 import './style.css';
 import { IConversation } from './types/Conversation';
@@ -28,14 +29,16 @@ export const App = () => {
   });
 
   return (
-    <div className="whatsapp">
-      {showSplash && <SplashComponent />}
-      {!showSplash && (
-        <>
-          <LeftBarComponent data={data!.conversations} />
-          <ChatAreaComponent data={data!.chats} />
-        </>
-      )}
-    </div>
+    <ConversationContextProvider>
+      <div className="whatsapp">
+        {showSplash && <SplashComponent />}
+        {!showSplash && (
+          <>
+            <LeftBarComponent data={data!.conversations} />
+            <ChatAreaComponent data={data!.chats} />
+          </>
+        )}
+      </div>
+    </ConversationContextProvider>
   );
 };

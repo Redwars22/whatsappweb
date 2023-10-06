@@ -1,6 +1,6 @@
 import React, { createContext } from 'react';
 
-const ConversationContext = createContext<{
+export const ConversationContext = createContext<{
   id: number;
   name: string;
   picture: string;

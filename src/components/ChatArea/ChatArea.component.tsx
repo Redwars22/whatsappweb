@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
+import { ConversationContext } from '../../context/ConversationContext';
 import { chatMocks } from '../../mock/chat.mock';
 import { conversationsMock } from '../../mock/conversations.mock';
 import { IChatBubble } from '../../types/chat';
@@ -12,30 +13,20 @@ import './style.css';
 export function ChatAreaComponent(props: { data: [] }) {
   const [messages, setMessages] = useState<IChatBubble[][] | []>([]);
 
-  let i: number = 0;
-
-  const els = document.querySelectorAll('.convo');
-
-  els.forEach((el) =>
-    el.addEventListener('click', () => {
-      console.log('Clicou' + el.id);
-    })
-  );
+  const context = useContext(ConversationContext);
 
   useEffect(() => {
     const data = props?.data;
 
-    console.log(data);
-
     setMessages(data);
-  }, [i]);
+  }, [context?.id]);
 
   return (
     <div className="chat-area">
       <div className="chatarea-header">
-        <ProfilePictureComponent source={conversationsMock[0].picture} />
+        <ProfilePictureComponent source={context?.picture} />
         <div className="chatarea-username-container">
-          <span>{conversationsMock[0].name}</span>
+          <span>{context?.name}</span>
           <span className="status">Online </span>
         </div>
         <div>
@@ -46,7 +37,7 @@ export function ChatAreaComponent(props: { data: [] }) {
       <div className="messages-area">
         <DateTimeHeaderComponent timeStamp={'HOJE'} />
         <>
-          {messages[i]?.map((message) => (
+          {messages[context?.id]?.map((message) => (
             <ChatBubbleComponent
               isSender={message?.isSender}
               message={message?.message}
