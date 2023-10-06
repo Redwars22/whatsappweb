@@ -20,7 +20,7 @@ export const App = () => {
       setData(chatsData);
     }
 
-    fetchData();
+    fetchChats();
 
     setTimeout(() => {
       setShowSplash(false);
