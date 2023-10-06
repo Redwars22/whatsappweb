@@ -7,7 +7,7 @@ import { SearchBarComponent } from '../LeftBar/SearchBar.component';
 
 import './style.css';
 
-export function LeftBarComponent(props: { data: IConversation }) {
+export function LeftBarComponent(props: { data: IConversation[] }) {
   return (
     <div className="left-bar">
       <LeftBarHeaderComponent />
