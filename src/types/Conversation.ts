@@ -5,6 +5,7 @@ export interface IConversation {
   status: TMessageStatus;
   pinned: boolean;
   lastSent: string;
+  id?: number;
 }
 
 export type TMessageStatus = 'read' | 'sent' | 'delivered' | 'not-mine';

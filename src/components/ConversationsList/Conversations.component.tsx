@@ -14,7 +14,7 @@ export function ConversationsComponent(props: { data: IConversation[] }) {
 
   return (
     <>
-      {data?.map((item: IConversation) => (
+      {data?.map((item: IConversation, index: number) => (
         <ConversationComponent
           picture={item?.picture}
           name={item?.name}
@@ -22,6 +22,7 @@ export function ConversationsComponent(props: { data: IConversation[] }) {
           status={item?.status}
           pinned={item?.pinned}
           lastSent={item?.lastSent}
+          id={index}
         />
       ))}
     </>
