@@ -16,7 +16,7 @@ export function ChatAreaComponent(props: {
   const [messages, setMessages] = useState<IChatBubble[] | []>();
 
   useEffect(() => {
-    const data: IChatBubble[] = props?.data[props?.user];
+    const data: IChatBubble[] = props?.data[0][props?.user];
 
     setMessages(data);
   }, []);
