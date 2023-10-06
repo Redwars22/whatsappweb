@@ -16,7 +16,7 @@ export function ChatAreaComponent(props: { data: [] }) {
   const context = useContext(ConversationContext);
 
   useEffect(() => {
-    const data = props?.data;
+    const data = props?.data[context?.id];
 
     setMessages(data);
   }, [context?.id]);
@@ -37,7 +37,7 @@ export function ChatAreaComponent(props: { data: [] }) {
       <div className="messages-area">
         <DateTimeHeaderComponent timeStamp={'HOJE'} />
         <>
-          {messages[context?.id]?.map((message) => (
+          {messages?.map((message) => (
             <ChatBubbleComponent
               isSender={message?.isSender}
               message={message?.message}
