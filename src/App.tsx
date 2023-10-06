@@ -17,6 +17,8 @@ export const App = () => {
     async function fetchChats() {
       const chatsData = await fetchData();
 
+      console.log(chatsData);
+
       setData(chatsData);
     }
 
