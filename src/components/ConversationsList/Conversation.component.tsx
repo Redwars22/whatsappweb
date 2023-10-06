@@ -11,14 +11,14 @@ export function ConversationComponent(props: IConversation) {
 
   useEffect(() => {
     const el = document
-      .querySelector(`#convo-${props?.id}`)!
+      .querySelector(`.convo-${props?.id}`)!
       .addEventListener('click', () => {
         window.alert(props?.name);
       });
   }, []);
 
   return (
-    <div className="convo-container convo" idFor={`convo-${props?.id}`}>
+    <div className={`convo-container convo-${props?.id}`}>
       <ProfilePictureComponent source={props?.picture} />
       <div className="middle-container">
         <span>{props?.name}</span>
