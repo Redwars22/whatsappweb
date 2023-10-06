@@ -6,12 +6,12 @@ import './style.css';
 
 export function ConversationComponent(props: IConversation) {
   return (
-    <div className="convo-container">
+    <div className="convo-container" idFor={`convo-${props?.id}`}>
       <ProfilePictureComponent source={props?.picture} />
       <div className="middle-container">
         <span>{props?.name}</span>
         <div className="message">
-          <ReadStatusIcon status={props?.status}/>
+          <ReadStatusIcon status={props?.status} />
           <span>{props?.message}</span>
         </div>
       </div>

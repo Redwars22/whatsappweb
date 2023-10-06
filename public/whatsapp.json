@@ -165,6 +165,118 @@
         "timeStamp": "15:05",
         "status": "delivered"
       }
+    ],
+    [
+      {
+        "isSender": true,
+        "message": "Olá! Como vai?",
+        "timeStamp": "10:15",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Oi, tudo bem?",
+        "timeStamp": "10:16",
+        "status": "read"
+      }
+    ],
+    [
+      {
+        "isSender": true,
+        "message": "E aí, o que você fez hoje?",
+        "timeStamp": "15:20",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Trabalhei de manhã e agora estou relaxando em casa.",
+        "timeStamp": "15:21",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Isso parece bom! Algum plano para esta noite?",
+        "timeStamp": "15:22",
+        "status": "sent"
+      }
+    ],
+    [
+      {
+        "isSender": false,
+        "message": "Oi! Como foi o seu dia?",
+        "timeStamp": "18:00",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Oi! Meu dia foi ótimo. Fui ao parque com meu cachorro e depois almocei com amigos.",
+        "timeStamp": "18:02",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Que legal! Eu fiquei em casa trabalhando. Mas agora estou pronto para relaxar.",
+        "timeStamp": "18:05",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Entendo, trabalhar em casa tem suas vantagens. Vamos fazer algo divertido este fim de semana?",
+        "timeStamp": "18:07",
+        "status": "sent"
+      }
+    ],
+    [
+      {
+        "isSender": true,
+        "message": "Oi! Você está livre na sexta-feira à noite?",
+        "timeStamp": "11:30",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Sim, estou livre. Algum plano em mente?",
+        "timeStamp": "11:32",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Vamos jantar fora e depois assistir a um filme no cinema?",
+        "timeStamp": "11:35",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Ótima ideia! Qual restaurante você sugere?",
+        "timeStamp": "11:37",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Pensei no italiano La Trattoria. O que você acha?",
+        "timeStamp": "11:40",
+        "status": "sent"
+      }
+    ],
+    [
+      {
+        "isSender": false,
+        "message": "Olá! Preciso discutir o relatório financeiro com você. Podemos marcar uma reunião?",
+        "timeStamp": "14:45",
+        "status": "read"
+      },
+      {
+        "isSender": true,
+        "message": "Claro, estou disponível para uma reunião. Que tal amanhã às 10h?",
+        "timeStamp": "14:47",
+        "status": "sent"
+      },
+      {
+        "isSender": false,
+        "message": "Perfeito! Vou reservar uma sala de conferências. Até amanhã, às 10h.",
+        "timeStamp": "14:50",
+        "status": "read"
+      }
     ]
   ]
 }
