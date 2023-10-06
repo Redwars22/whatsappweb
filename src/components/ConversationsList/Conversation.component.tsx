@@ -13,7 +13,11 @@ export function ConversationComponent(props: IConversation) {
     const el = document
       .querySelector(`.convo-${props?.id}`)!
       .addEventListener('click', () => {
-        window.alert(props?.name);
+        context.updateContext({
+          id: props?.id,
+          name: props?.name,
+          picture: props?.picture,
+        });
       });
   }, []);
 
