@@ -10,7 +10,7 @@ export function ConversationComponent(props: IConversation) {
   const context = useContext(ConversationContext);
 
   const el = document
-    .getElementById(`convo-${props?.id}`)
+    .querySelector(`#convo-${props?.id}`)!
     .addEventListener('click', () => {
       window.alert(props?.name);
     });
