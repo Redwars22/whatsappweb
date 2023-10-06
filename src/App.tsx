@@ -29,7 +29,7 @@ export const App = () => {
       {!showSplash && (
         <>
           <LeftBarComponent data={data!.conversations} />
-          <ChatAreaComponent data={data!.chats} />
+          <ChatAreaComponent data={data!.chats} user={'Emanoel'}/>
         </>
       )}
     </div>
