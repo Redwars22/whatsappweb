@@ -12,7 +12,8 @@
   border-bottom: 1px solid #eef1f3;
 }
 
-.convo-container:hover {
+.convo-container:hover,
+.selected {
   background-color: #f0f2f5;
 }
 

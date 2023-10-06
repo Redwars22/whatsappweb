@@ -18,7 +18,11 @@ export function ConversationComponent(props: IConversation) {
   }, []);
 
   return (
-    <div className={`convo-container convo-${props?.id}`}>
+    <div
+      className={`convo-container convo-${props?.id} ${
+        context.id == props?.id ? 'selected' : ''
+      }`}
+    >
       <ProfilePictureComponent source={props?.picture} />
       <div className="middle-container">
         <span>{props?.name}</span>
