@@ -9,17 +9,18 @@ import { ChatBubbleComponent } from '../ChatBubbles/ChatBubble.component';
 import { ProfilePictureComponent } from '../ProfilePicture/ProfilePicture.component';
 import './style.css';
 
-export function ChatAreaComponent(props: {
-  data: [],
-  user: string
-}) {
+export function ChatAreaComponent(props: { data: [] }) {
   const [messages, setMessages] = useState<IChatBubble[] | []>();
 
+  let i: number = 0;
+
   useEffect(() => {
-    const data: IChatBubble[] = props?.data[0][props?.user];
+    const data: IChatBubble[] = props?.data;
+
+    console.log(data);
 
     setMessages(data);
-  }, []);
+  }, [i]);
 
   return (
     <div className="chat-area">
