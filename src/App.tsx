@@ -19,7 +19,7 @@ export const App = () => {
     fetchData();
 
     setTimeout(() => {
-      //setShowSplash(false);
+      setShowSplash(false);
     }, 5000);
   });
 
@@ -28,8 +28,8 @@ export const App = () => {
       {showSplash && <SplashComponent />}
       {!showSplash && (
         <>
-          <LeftBarComponent data={data?.conversations} />
-          <ChatAreaComponent data={data?.chats} />
+          <LeftBarComponent data={data!.conversations} />
+          <ChatAreaComponent data={data!.chats} />
         </>
       )}
     </div>

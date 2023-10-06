@@ -3,11 +3,11 @@ import { conversationsMock } from '../../mock/conversations.mock';
 import { IConversation } from '../../types/Conversation';
 import { ConversationComponent } from '../ConversationsList/Conversation.component';
 
-export function ConversationsComponent() {
+export function ConversationsComponent(props: { data: IConversation[] }) {
   const [data, setData] = useState<IConversation[] | []>([]);
 
   useEffect(() => {
-    const convData: IConversation[] = conversationsMock;
+    const convData: IConversation[] = props?.data;
 
     setData(convData);
   }, []);
