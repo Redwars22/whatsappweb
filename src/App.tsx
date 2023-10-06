@@ -9,13 +9,15 @@ import { IConversation } from './types/Conversation';
 export const App = () => {
   const [showSplash, setShowSplash] = useState<boolean>(true);
   const [data, setData] = useState<{
-    conversations: IConversation[],
+    conversations: any,
     chats: any
   }>();
 
   useEffect(() => {
     async function fetchChats() {
       const chatsData = await fetchData();
+
+      setData(chatsData);
     }
 
     fetchData();
